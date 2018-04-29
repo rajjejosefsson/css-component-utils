@@ -45,7 +45,7 @@ setOptions({
    * display floating search box to search through stories
    * @type {Boolean}
    */
-  showSearchBox: true,
+  showSearchBox: false,
   /**
    * show addon panel as a vertical panel on the right
    * @type {Boolean}
