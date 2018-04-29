@@ -11,20 +11,11 @@ import {
 } from "@storybook/addon-knobs/react";
 import { withInfo } from "@storybook/addon-info";
 
-storiesOf("Stories", module)
+storiesOf("WIP", module)
   .addDecorator(withKnobs)
   .add(
-    "Tabs",
+    "Toggle",
     withInfo()(() => {
-      return (
-        <div className="tabs--regular">
-          <div className="tabs__item">
-            <p className="tabs__label">Text</p>
-          </div>
-          <div className="tabs__item">
-            <p className="tabs__label">Text</p>
-          </div>
-        </div>
-      );
+      return <div className="switch__slidebar" />;
     })
   );

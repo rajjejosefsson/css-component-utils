@@ -11,7 +11,7 @@ import {
 } from "@storybook/addon-knobs/react";
 import { withInfo } from "@storybook/addon-info";
 
-storiesOf("Stories", module)
+storiesOf("Atoms", module)
   .addDecorator(withKnobs)
   .add(
     "Input",
@@ -19,5 +19,25 @@ storiesOf("Stories", module)
       const placeholder = text("Placeholder", "Search...");
 
       return <input className="input" placeholder={placeholder} />;
+    })
+  )
+  .add(
+    "Input With password",
+    withInfo()(() => {
+      const placeholder = text("Placeholder", "Search...");
+
+      return (
+        <div className="pos-relative">
+          <input
+            type="password"
+            name="Password"
+            placeholder="Password"
+            className="input"
+          />
+          <span className="progresswrapper">
+            <span className="progress percentage-75" />
+          </span>
+        </div>
+      );
     })
   );

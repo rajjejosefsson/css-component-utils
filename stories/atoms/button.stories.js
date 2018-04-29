@@ -11,11 +11,28 @@ import {
 } from "@storybook/addon-knobs/react";
 import { withInfo } from "@storybook/addon-info";
 
-storiesOf("Stories", module)
+storiesOf("Atoms", module)
   .addDecorator(withKnobs)
   .add(
     "Button",
-    withInfo()(() => {
+    withInfo(
+      `
+      **Colors:**
+      ~~~js
+      btn--primary, btn--secondary, btn--tertiary, btn--negative btn--deal
+      ~~~
+
+      **Sizes:**
+      ~~~js
+      btn--small, btn--regular, btn--big
+      ~~~
+
+      **Other**
+      ~~~js
+      btn--disabled
+      ~~~
+    `
+    )(() => {
       const isDisabled = boolean("Disabled", false);
       const title = text("Title", "Submit");
 

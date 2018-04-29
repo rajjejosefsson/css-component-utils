@@ -3177,201 +3177,6 @@ abbr[title] {
 .input-password-wrapper .input-password {
   padding-right: 70px;
 }
-.icon-country-flag {
-  width: 20px;
-  height: 12px;
-  background-repeat: no-repeat;
-  background-position: 0 -30px;
-  background-size: 20px auto;
-}
-.backgroundsize .icon-country-flag,
-.icon-country-flag {
-  background-image: url(http://ie1.trivago.com/images/layoutimages/flags/locale/imagemap_all_flags_21.png);
-}
-.icon-country-flag.icon-flag-at {
-  background-position: 0 -810px;
-}
-.icon-country-flag.icon-flag-de {
-  background-position: 0 0;
-}
-.icon-country-flag.icon-flag-en,
-.icon-country-flag.icon-flag-uk {
-  background-position: 0 -30px;
-  height: 11px;
-}
-.icon-country-flag.icon-flag-es {
-  background-position: 0 -60px;
-}
-.icon-country-flag.icon-flag-fr {
-  background-position: 0 -90px;
-}
-.icon-country-flag.icon-flag-se {
-  background-position: 0 -120px;
-}
-.icon-country-flag.icon-flag-pl {
-  background-position: 0 -150px;
-}
-.icon-country-flag.icon-flag-ru {
-  background-position: 0 -180px;
-}
-.icon-country-flag.icon-flag-it {
-  background-position: 0 -210px;
-}
-.icon-country-flag.icon-flag-gr {
-  background-position: 0 -240px;
-}
-.icon-country-flag.icon-flag-nl {
-  background-position: 0 -270px;
-}
-.icon-country-flag.icon-flag-rs {
-  background-position: 0 -300px;
-}
-.icon-country-flag.icon-flag-tr {
-  background-position: 0 -330px;
-}
-.icon-country-flag.icon-flag-ro {
-  background-position: 0 -360px;
-}
-.icon-country-flag.icon-flag-ar {
-  background-position: 0 -390px;
-}
-.icon-country-flag.icon-flag-ie {
-  background-position: 0 -870px;
-}
-.icon-country-flag.icon-flag-id {
-  background-position: 0 -1290px;
-}
-.icon-country-flag.icon-flag-hu {
-  background-position: 0 -900px;
-}
-.icon-country-flag.icon-flag-br {
-  background-position: 0 -450px;
-}
-.icon-country-flag.icon-flag-cn,
-.icon-country-flag.icon-flag-zh {
-  background-position: 0 -480px;
-}
-.icon-country-flag.icon-flag-us {
-  background-position: 0 -510px;
-}
-.icon-country-flag.icon-flag-fi {
-  background-position: 0 -540px;
-}
-.icon-country-flag.icon-flag-jp {
-  background-position: 0 -570px;
-}
-.icon-country-flag.icon-flag-mx {
-  background-position: 0 -600px;
-}
-.icon-country-flag.icon-flag-pt {
-  background-position: 0 -630px;
-}
-.icon-country-flag.icon-flag-cs,
-.icon-country-flag.icon-flag-cz {
-  background-position: 0 -840px;
-}
-.icon-country-flag.icon-flag-bg {
-  background-position: 0 -420px;
-}
-.icon-country-flag.icon-flag-da,
-.icon-country-flag.icon-flag-dk {
-  background-position: 0 -690px;
-}
-.icon-country-flag.icon-flag-no {
-  background-position: 0 -720px;
-}
-.icon-country-flag.icon-flag-be {
-  background-position: 0 -750px;
-}
-.icon-country-flag.icon-flag-si,
-.icon-country-flag.icon-flag-so {
-  background-position: 0 -780px;
-}
-.icon-country-flag.icon-flag-ch {
-  background-position: 0 -930px;
-}
-.icon-country-flag.icon-flag-ca {
-  background-position: 0 -990px;
-  height: 12px;
-}
-.icon-country-flag.icon-flag-nz {
-  background-position: 0 -1050px;
-}
-.icon-country-flag.icon-flag-au {
-  background-position: 0 -960px;
-  height: 12px;
-}
-.icon-country-flag.icon-flag-co {
-  background-position: 0 -1200px;
-  height: 12px;
-}
-.icon-country-flag.icon-flag-ko,
-.icon-country-flag.icon-flag-kr {
-  background-position: 0 -1020px;
-}
-.icon-country-flag.icon-flag-cl {
-  background-position: 0 -1170px;
-  height: 12px;
-}
-.icon-country-flag.icon-flag-sg {
-  background-position: 0 -1138px;
-}
-.icon-country-flag.icon-flag-in {
-  background-position: 0 -1080px;
-}
-.icon-country-flag.icon-flag-hk {
-  background-position: 0 -1110px;
-}
-.icon-country-flag.icon-flag-ae {
-  background-position: 0 -1320px;
-}
-.icon-country-flag.icon-flag-ms,
-.icon-country-flag.icon-flag-my {
-  background-position: 0 -1230px;
-}
-.icon-country-flag.icon-flag-th {
-  background-position: 0 -1260px;
-}
-.icon-country-flag.icon-flag-he,
-.icon-country-flag.icon-flag-il {
-  background-position: 0 -1350px;
-}
-.icon-country-flag.icon-flag-za {
-  background-position: 0 -1380px;
-}
-.icon-country-flag.icon-flag-tw {
-  background-position: 0 -1410px;
-}
-.icon-country-flag.icon-flag-ph {
-  background-position: 0 -1470px;
-}
-.icon-country-flag.icon-flag-world_wide {
-  background-position: 0 -1514px;
-}
-.icon-country-flag.icon-flag-vn {
-  background-position: 0 -1440px;
-}
-.icon-country-flag.icon-flag-aa {
-  background-position: 0 -1530px;
-}
-.icon-country-flag.icon-flag-hr {
-  background-position: 0 -1560px;
-}
-.icon-country-flag.icon-flag-sk {
-  background-position: 0 -1590px;
-}
-.icon-country-flag.icon-flag-pe {
-  background-position: 0 -1620px;
-}
-.icon-country-flag.icon-flag-ec {
-  background-position: 0 -1650px;
-}
-.icon-country-flag.icon-flag-uy {
-  background-position: 0 -1680px;
-}
-.icon-country-flag.icon-flag-ng {
-  background-position: 0 -1710px;
-}
 .icon-currency {
   top: 17px;
   left: 10px;
@@ -4931,6 +4736,39 @@ table {
   position: absolute;
   width: 0;
   z-index: 5;
+}
+
+
+.tabs__label:focus {
+    background-color: transparent
+}
+
+.tabs__item {
+    position: relative;
+    display: table-cell
+}
+
+.tabs__item--activ.tabs__labele  {
+    color: #37454d;
+    border-bottom-color: #37454d
+}
+
+.tabs__item--disabled .tabs__label,.tabs__item--disabled .tabs__label:hover {
+    color: #cdd0d2;
+    background-color: transparent;
+    cursor: default
+}
+
+.tabs__item--disabled.tabs__item--active .tabs__label {
+    border-bottom-color: #9ba2a6
+}
+
+.tabs__item+.tabs__item .tabs__label {
+    border-left: 1px solid #ebeced
+}
+
+.tabs--small .tabs__item+.tabs__item .tabs__label {
+    border-left: 0
 }
 .progress {
   background-color: transparent;

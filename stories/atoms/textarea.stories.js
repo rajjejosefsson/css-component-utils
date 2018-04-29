@@ -14,7 +14,7 @@ import { withInfo } from "@storybook/addon-info";
 storiesOf("Stories", module)
   .addDecorator(withKnobs)
   .add(
-    "Textarea",
+    "Atoms",
     withInfo()(() => {
       return (
         <textarea

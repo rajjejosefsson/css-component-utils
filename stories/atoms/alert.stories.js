@@ -11,11 +11,23 @@ import {
 } from "@storybook/addon-knobs/react";
 import { withInfo } from "@storybook/addon-info";
 
-storiesOf("Stories", module)
+storiesOf("Atoms", module)
   .addDecorator(withKnobs)
   .add(
     "Alert",
-    withInfo()(() => {
+    withInfo(
+      `
+      **Colors:**
+      ~~~js
+      alert--info, alert--success, alert--warning, alert--error 
+      ~~~
+
+      **Position:**
+      ~~~js
+      alert--top, alert--bottom
+      ~~~
+    `
+    )(() => {
       const isDisabled = boolean("Disabled", false);
       const message = text("Message", "Alert message goes here");
 
@@ -23,7 +35,7 @@ storiesOf("Stories", module)
         Info: "alert--info",
         Success: "alert--success",
         Warning: "alert--warning",
-        Error: "alert--error "
+        Error: "alert--error"
       };
 
       const alertPositionOptions = {
