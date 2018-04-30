@@ -11,10 +11,10 @@ import {
 } from "@storybook/addon-knobs/react";
 import { withInfo } from "@storybook/addon-info";
 
-storiesOf("Stories", module)
+storiesOf("Atoms", module)
   .addDecorator(withKnobs)
   .add(
-    "Atoms",
+    "Textarea",
     withInfo()(() => {
       return (
         <textarea
